@@ -4,6 +4,7 @@ Theme URI: http://lairbob.com/
 Description: Child theme based on Tarski
 Author: Laurent Stanevich
 Author URI: http://lairbob.com/
+Tags: white, two-columns, left-sidebar, right-sidebar, fixed-width, custom-colors, custom-header, theme-options, threaded-comments, sticky-post, microformats, rtl-language-support, translation-ready
 Template: tarski
 Version: 1.0
 Tags: Tarski, LairBob
@@ -11,3 +12,150 @@ Tags: Tarski, LairBob
 
 /* Reset browser defaults */
 @import url('../tarski/style.css');
+
+/* Global content control
+	--------------------------------------- */
+	body .content p { line-height: 1.6; }
+	body .content li { line-height: 1.6; }
+
+/* Headers
+	--------------------------------------- */
+	h2 {
+		margin-top: 2em;
+	}
+	
+	
+/* Content
+----------------------------------------------- */
+
+  /* Quotations
+  ------------------------------------------ */
+  body .quotation {
+	margin: 0 0 1em 0; 
+	padding: 0 30px; 
+	color: #808080;
+	line-height: 1.4;
+  }
+  
+    body .quot_attrib {
+	margin:none;
+	text-align:right;
+	font-style: italic;
+  }
+
+    body .quot_source {
+	text-decoration: underline;
+  }
+
+
+  /* Summary info
+  ------------------------------------------ */
+  body .summary {
+	color: #808080;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-style: italic;
+  }
+
+  /* Inline images
+  ------------------------------------------ */
+  body .size-full {
+	margin-top: 1em;
+	margin-bottom: 1em;
+  }
+  
+    body .screen-grab {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-top: 2px dotted #e5e5e5;
+	border-bottom: 2px dotted #e5e5e5;
+  }
+  
+  body .wp-caption {
+	width: 500px;
+	-moz-border-radius:none;
+	border: none;
+  }
+  
+  body .wp-caption-text {
+	font-size:0.9em;
+	font-style: italic;
+	margin:none;
+  }
+
+  /* Sidebar Notes
+  ------------------------------------------ */
+  
+  body .widget_callout {
+	color: #505050;
+	padding: 1em 1em 1em 1em;	
+	background-color: #eeeeee;
+	line-height: 1.6;
+  }
+  
+  body .widget_callout p { 
+	font-size: 90%;
+	margin-bottom: 0;
+  }
+
+  body .widget_section {
+	font-weight: bold;
+	margin-top: 1em;
+  }
+  body .mcw { 
+  }
+
+  /* Sidebar Category Posts
+  ------------------------------------------ */
+  
+  body .cat-post-item {
+	color: #505050;
+	line-height: 1.4;
+	margin-bottom: 1em;
+  }
+
+  body .cat-post-item  p {
+	font-size: 90%;
+	margin-bottom: 1em;
+  }
+  
+  body .cat-post-item  li {
+	margin-bottom: 2em;
+  }
+  
+  /* Sliding Panels
+  ------------------------------------------ */
+
+  
+  body .hackadelic-sliderPanel {
+	padding: 1em;
+	background-color: #eeeeee;
+}
+
+  body .hackadelic-sliderPanel p {
+	margin-top: none;
+}
+
+ body .hackadelic-sliderButton {
+	margin-top: 3em;
+}
+a.hackadelic-sliderButton {
+	margin-top: 1em;
+	color: #B3960E;
+	padding: 0 3px;
+}
+a.hackadelic-sliderButton:hover {
+	border: 1px solid #F0F0E0;
+	background-color: #F0F0E0;
+}
+.entry .hackadelic-sliderPanel {
+	background-color: #fcfcfc;
+}
+.textwidget .hackadelic-sliderButton {
+	display: block;
+	text-align: center;
+	margin: .5em;
+}
+.textwidget .hackadelic-sliderPanel {
+	background-color: #F0F0E0;
+}
