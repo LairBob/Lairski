@@ -13,6 +13,16 @@ Tags: Tarski, LairBob
 /* Reset browser defaults */
 @import url('../tarski/style.css');
 
+/* Main structure
+----------------------------------------------- */
+
+/* Links
+----------------------------------------------- */
+a { text-decoration: none; }
+a:link, a:visited, a:active { color: #08515F; }
+a:hover { color: #3A0962; }
+
+
 /* Global content control
 	--------------------------------------- */
 	body .content p { line-height: 1.6; }
@@ -24,9 +34,27 @@ Tags: Tarski, LairBob
 		margin-top: 2em;
 	}
 	
+	h3 { 
+	color: #A67C00;
+	border-bottom: 1px solid #e5e5e5; 
+	padding: 0 0 0.4em 0; 
+	}
+	
 	
 /* Content
 ----------------------------------------------- */
+
+  /* Quotations
+  ------------------------------------------ */
+  body .on-deck {
+	padding: 1em; 
+	background-color: #FFF2CE;
+  }
+
+	body .on-deck h2 {
+	margin-top: 0;
+	color: #0A0D64;
+	}
 
   /* Quotations
   ------------------------------------------ */
@@ -89,7 +117,7 @@ Tags: Tarski, LairBob
   body .widget_callout {
 	color: #505050;
 	padding: 1em 1em 1em 1em;	
-	background-color: #eeeeee;
+	background-color: #FFF2CE;
 	line-height: 1.6;
   }
   
@@ -99,6 +127,7 @@ Tags: Tarski, LairBob
   }
 
   body .widget_section {
+	color: #0A0D64;
 	font-weight: bold;
 	margin-top: 1em;
   }
