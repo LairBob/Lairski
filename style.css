@@ -1,4 +1,4 @@
-/*   
+/*
 Theme Name: Lairski
 Theme URI: http://lairbob.com/
 Description: Child theme based on Tarski
@@ -40,14 +40,28 @@ a:hover { color: #3A0962; }
 	padding: 0 0 0.4em 0; 
 	}
 	
+  body .custom-type-label {
+	font-family: Verdana, sans-serif; 
+	font-size: 1em; 
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0.75em;
+	text-align: right;
+	text-transform: uppercase;
+	background-color: #FFF2CE;
+  }
+	
 	
 /* Content
 ----------------------------------------------- */
 
-  /* Quotations
+  /* Content Types
   ------------------------------------------ */
   body .on-deck {
-	padding: 1em; 
+	padding: 1em;
 	background-color: #FFF2CE;
   }
 
@@ -55,6 +69,29 @@ a:hover { color: #3A0962; }
 	margin-top: 0;
 	color: #0A0D64;
 	}
+
+  body .PH-image {
+    padding: 25px;
+    text-align: center;
+    background-color: #808080;
+    color: #EEEEEE;
+    height: 50px;
+    margin-bottom: 2em;
+    margin-top: 2em
+}
+
+  body .PH-note {
+	padding: 1em;
+	background-color: #FFF2CE;
+    margin-bottom: 2em;
+    margin-top: 2em
+  }
+
+body .PH-draft {
+  color: #404040;
+  background-color: #D0D0D0;
+}
+
 
   /* Quotations
   ------------------------------------------ */
@@ -159,6 +196,7 @@ a:hover { color: #3A0962; }
   body .hackadelic-sliderPanel {
 	padding: 1em;
 	background-color: #eeeeee;
+	margin-bottom:2em;
 }
 
   body .hackadelic-sliderPanel p {
@@ -167,6 +205,7 @@ a:hover { color: #3A0962; }
 
  body .hackadelic-sliderButton {
 	margin-top: 3em;
+	text-align:right;
 }
 a.hackadelic-sliderButton {
 	margin-top: 1em;
@@ -174,10 +213,10 @@ a.hackadelic-sliderButton {
 	padding: 0 3px;
 }
 a.hackadelic-sliderButton:hover {
-	border: 1px solid #F0F0E0;
 	background-color: #F0F0E0;
 }
 .entry .hackadelic-sliderPanel {
+	font-size:90%;
 	background-color: #fcfcfc;
 }
 .textwidget .hackadelic-sliderButton {

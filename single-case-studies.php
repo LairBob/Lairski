@@ -11,6 +11,7 @@
 				<div <?php post_class('entry'); ?>>
 					
 					<div class="meta">
+						<p class="custom-type-label">Case Study</p>
 						<h1 class="title entry-title"><?php the_title(); ?></h1>
 						<?php if (is_attachment()) { ?>
 							<p class="metadata"><?php
